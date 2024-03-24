@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+.libre{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+footer{
+  margin-top: 4rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.imagecontainer{
+  padding: 1rem;
+}
+
+.expertise{
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .cardcontainer {
+    display: flex;
+  }
+  .imagecontainer{
+    padding: 0rem;
+  }
+  .expertise{
+    margin-bottom: 2rem;
+  }
+}
+  
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .cardcontainer {
+    display: flex;
+  }
+  .imagecontainer{
+    padding: 0rem;
+  }
+  .expertise{
+    margin-bottom: 2rem;
+}
+  
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+  .cardcontainer {
+    display: block;
+  }
+  .imagecontainer{
+    padding: 1rem;
+  }
+  .expertise{
+    margin-bottom: 3rem;
+  }
+}
+  
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .cardcontainer {
+      display: flex;
+  }
+  .imagecontainer{
+    padding: 0rem;
+  }
+  .expertise{
+    margin-bottom: 3rem;
+  }  
+}
+  
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+  .cardcontainer {
+      display: flex;
+  }
+  .imagecontainer{
+    padding: 0rem;
+  }
+  .expertise{
+    margin-bottom: 3rem;
+  }  
+}
